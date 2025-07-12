@@ -48,6 +48,8 @@
   <project path="hardware/qcom-caf/sm8750/media" name="hardware_qcom_media" groups="qcom,pakala-vendor" revision="lineage-22.2-caf-sm8750" remote="xiaomi-onyx" />
   <project path="device/qcom/sepolicy_vndr/sm8750" name="device_qcom_sepolicy_vndr" groups="qcom,pakala-vendor" revision="lineage-22.2-caf-sm8750" remote="xiaomi-onyx" />
 
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar" name="vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,pakala-audio" revision="lineage-22.2" remote="xiaomi-onyx"/>
+
   <remove-project name="LineageOS/android_vendor_qcom_opensource_power"/>
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" groups="qcom,pakala-vendor" revision="lineage-22.2" remote="xiaomi-onyx"/>
 </manifest>
